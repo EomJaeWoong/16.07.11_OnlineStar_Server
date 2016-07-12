@@ -11,6 +11,13 @@ typedef struct st_Client
 	int y;
 } stClient;
 
+typedef struct st_Packet
+{
+	int type;
+	int ID;
+	int x;
+	int y;
+} stPacket;
 static DWORD IDkey;
 
 BOOL InitServer();
